@@ -1,0 +1,276 @@
+.home1{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: url(http://getwallpapers.com/wallpaper/full/1/8/1/465351.jpg) no-repeat center center fixed;
+  background-size: cover; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px; 
+  margin-bottom: 0px;
+  padding: 0 10px;
+  background-color: #f8f8f8;
+  /* border-bottom: 1px solid #ddd; */
+  z-index: 1000; 
+}
+
+.brand-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+.logo2{
+  width: 100px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007BFF;
+}
+
+
+.main-content {
+  flex: 1;
+  padding-top: 80px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+
+.header-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 150px 20px 50px; 
+  background-color: rgba(0, 0, 0, 0.805);
+  color: white;
+  margin-top:0px; 
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  flex: 1;
+  padding-left: 50px; 
+}
+
+.header-content h1 {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.header-content p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+
+.browse-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex: 1;
+}
+
+.browse-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.browse-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.01); 
+  text-shadow: 0px 0px 50px blueviolet; 
+}
+
+.separator {
+  border: 0;
+  height: 2px;
+  background: black;
+  margin: 20px auto; 
+  width: 95%;
+}
+
+
+.about-container {
+  margin: 20px auto;
+  padding: 20px; 
+  border-radius: 30px; 
+  background-color: #ffffff76;
+}
+
+.about-container h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  font-size: 1.5em;
+  line-height: 1.6;
+  width: 80%;
+  text-align: right; 
+  margin-left: auto; 
+}
+
+
+.footer {
+  background-color: #f8f8f84d;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  position: relative; 
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.social-icons a:hover {
+  color: #007BFF;
+}
+
+
+@media (max-width: 768px) {
+  .home1{
+    padding-top: 100px;
+  }
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+
+  .main-content {
+      padding-top: 60px;
+  }
+
+  .header-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 100px 20px 50px;
+  }
+
+  .header-content {
+      align-items: center;
+      padding-left: 0;
+  }
+
+  .header-content h1 {
+      font-size: 2.5em;
+  }
+
+  .header-content p {
+      font-size: 1.2em;
+  }
+
+  .about-container {
+      width: 90%;
+  }
+
+  .about-container h2 {
+      font-size: 2.5em;
+  }
+
+  .about-container p {
+      font-size: 1.2em;
+      text-align: center; 
+  }
+
+  .browse-button {
+      font-size: 1em;
+      padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home1{
+    padding-top: 100px;
+  }
+  .header-container {
+      padding: 80px 20px 40px;
+  }
+
+  .header-content h1 {
+      font-size: 2em;
+  }
+
+  .header-content p {
+      font-size: 1em;
+  }
+
+  .about-container h2 {
+      font-size: 2em;
+  }
+
+  .about-container p {
+      font-size: 1.2em;
+      width: 100%;
+  }
+
+  .browse-button {
+      font-size: 0.9em;
+      padding: 6px 12px;
+  }
+}

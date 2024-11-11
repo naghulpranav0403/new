@@ -1,0 +1,178 @@
+.job-page1 {
+    padding: 10px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ccc;
+    height: 200vh ;
+    background: url("https://wallpapers.com/images/high/project-management-at-home-ojkibpnzilp9jdpb.webp") no-repeat center center fixed; 
+    background-size: cover;
+  }
+  .title1 {
+    display: flex;
+    font-family: lobster;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 70px;
+  }
+  .job-listings1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 20px;
+    width: calc(100% - 4%);
+  }
+  
+  .job-item1 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    transition: 400ms ease;
+  }
+  
+  .job-item1:hover {
+    scale:1.05;
+    box-shadow: 0px 0px 10px blue;
+    overflow: hidden;
+  }
+  
+  .job-item1 h2 {
+    margin: 0 0 10px;
+  }
+  
+  .job-item1 p {
+    margin: 5px 0;
+  }
+  
+  .job-item1 img {
+    margin: 0;
+    display: flex;
+  }
+  
+.buu1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  margin-top: -50px;
+}
+
+
+
+.job-logo1 {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.job-header1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.logo1 {
+  width: 50px;
+  height: auto;
+  margin: 20px 10px 0 0;
+}
+
+.company-info1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-info1 h2,
+.company-info1 h3 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.vat1 {
+  display: flex;
+  margin-right: 10px;
+}
+
+.vat1:hover,
+.fil11:hover {
+  transform: scale(1.1);
+  margin-right: 10px;
+}
+
+.ro1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 70px;
+}
+
+.ro1 p {
+  margin-right: 10px;
+}
+
+.fil11{
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+ 
+  .job-listings1 {
+    width: calc(100% - 40px);
+  }
+}
+
+@media (max-width: 992px) {
+
+  .title1 {
+    padding: 30px;
+  }
+  .filters1 input,
+  .filters1 select {
+    flex: 1 1 48%;
+  }
+}
+
+@media (max-width: 768px) {
+ 
+  .filters1 {
+    justify-content: center;
+  }
+
+  .filters1 input,
+  .filters1 select {
+    flex: 1 1 100%;
+  }
+
+  .job-item1 {
+    margin: 10px 0;
+  }
+
+  .ro1 {
+    margin: 0 0 20px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+ 
+  .title1 {
+    padding: 20px;
+  }
+
+  .ro1 {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .job-item1 {
+    padding: 10px 5px;
+  }
+
+ 
+}
+ .com1{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 570px;
+  justify-content: flex-end;
+  width: 20%;
+ }

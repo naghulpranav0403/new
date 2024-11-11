@@ -1,0 +1,87 @@
+.signup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.signup2{
+    width: 300px;
+    background:rgba(255, 255, 255, 0.803);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.433);
+}
+
+.signup2 h2 {
+    margin-bottom: 20px;
+    color: rgb(14, 10, 10);
+    text-align: center;
+}
+
+.group1 {
+    margin-bottom: 15px;
+}
+
+.group1 label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.group1 input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+.group2 {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.group2:hover {
+    background-color: #0056b3;
+}
+.signuplogo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px; 
+    height: auto;
+}
+.group3{
+     margin-left: 50px;
+     color: black;
+}
+@media (max-width: 1200px) {
+    .signup1{
+     padding-top: 180px;
+    }
+ }
+ @media (max-width: 992px) {
+     .signup1{
+         padding-top: 50px;
+        }
+ } 
+ @media (max-width: 768px) {
+     .signup1{
+         padding-top: 270px;
+        }
+ }
+ @media (max-width: 576px) {
+     .signup1   {
+         padding-top: 270px;
+        }
+ }

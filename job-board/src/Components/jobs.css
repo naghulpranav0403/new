@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.job-page {
+  padding: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  background: url("https://wallpapers.com/images/high/project-management-at-home-ojkibpnzilp9jdpb.webp") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.title {
+  display: flex;
+  font-family: lobster;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 70px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0 20px;
+  justify-content: flex-end;
+}
+
+.filters input,
+.filters select {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1 1 100%;
+}
+
+.job-listings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 20px;
+  width: calc(100% - 4%);
+}
+
+.job-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  transition: 400ms ease;
+}
+
+.job-item:hover {
+  scale:1.05;
+  box-shadow: 0px 0px 10px blue;
+  overflow: hidden;
+}
+
+.job-item h2 {
+  margin: 0 0 10px;
+}
+
+.job-item p {
+  margin: 5px 0;
+}
+
+.job-item img {
+  margin: 0;
+  display: flex;
+}
+
+.apply-button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0 0 10px;
+}
+
+.buu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  margin-top: -50px;
+}
+
+.apply-button:hover {
+  background-color: #00b33f;
+  transform: scale(1.1);
+  text-shadow: #ccc;
+}
+
+.job-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin: 20px 10px 0 0;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-info h2,
+.company-info h3 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.vat {
+  display: flex;
+  margin-right: 10px;
+}
+
+.vat:hover,
+.fil1:hover {
+  transform: scale(1.1);
+  margin-right: 10px;
+}
+
+.ro {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 70px;
+}
+
+.ro p {
+  margin-right: 10px;
+}
+
+.fil1 {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .job-page{
+    padding-top: 170px;
+   }
+  .job-listings {
+    width: calc(100% - 40px);
+  }
+}
+
+@media (max-width: 992px) {
+  .job-page{
+    padding-top: 50px;
+   }
+  .title {
+    padding: 30px;
+  }
+
+  .filters input,
+  .filters select {
+    flex: 1 1 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .job-page{
+    padding-top: 210px;
+   }
+  .filters {
+    justify-content: center;
+  }
+
+  .filters input,
+  .filters select {
+    flex: 1 1 100%;
+  }
+
+  .job-item {
+    margin: 10px 0;
+  }
+
+  .ro {
+    margin: 0 0 20px 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .job-page{
+    padding-top: 210px;
+   }
+  .title {
+    padding: 20px;
+  }
+
+  .ro {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .job-item {
+    padding: 10px 5px;
+  }
+
+  .apply-button {
+    padding: 5px 10px;
+  }
+}
